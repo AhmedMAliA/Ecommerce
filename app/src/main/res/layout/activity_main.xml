@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:background="#1C6071"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:src="@drawable/e"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Emailll"
+        android:height="40dp"
+        android:background="#fff"
+        android:width="330dp"
+        android:id="@+id/email"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="pass"
+        android:height="40dp"
+        android:background="#fff"
+        android:id="@+id/pass"
+        android:textColor="#000000"
+        android:width="330dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/log"
+        android:width="330dp"
+        android:text="Log In"
+        android:background="#23A0C4"
+        android:layout_gravity="center"
+        android:height="30dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup"
+        android:width="330dp"
+        android:text="Sign Up"
+        android:background="#23A0C4"
+        android:layout_gravity="center"
+        android:height="30dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Forget Password ?"
+        android:id="@+id/forget"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:labelFor="@style/AppTheme"
+        android:textColor="#fff"/>
+
+
+
+</LinearLayout>
